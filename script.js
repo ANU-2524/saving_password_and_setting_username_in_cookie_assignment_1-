@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   setCookie("count" , count , 25) ;
   let display = document.createElement("h3") ;
-  display.innerText = `Counts Cookie : ${count}` ;
+  display.innerText = `Page Views : ${count}` ;
   document.body.appendChild(display) ; 
  
 });
